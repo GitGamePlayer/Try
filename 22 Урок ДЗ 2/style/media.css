@@ -1,0 +1,161 @@
+@media (max-width: 1400px){
+
+    .container{
+        margin-left: 110px;}
+    footer{
+        width: 100%;
+
+        min-width: 100%;
+    }
+}
+@media (max-width: 1200px){
+    footer{
+/*     
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            */
+    }
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_contact{
+        max-width: max-content;
+    }
+}
+@media (max-width: 1100px){
+    .container{
+        margin-left: 110px;}
+}
+@media (max-width: 1000px){
+   .container{
+    margin-left: 110px;}
+}
+
+
+
+@media (max-width: 760px){
+    body{
+        /* max-width: 760px;
+        flex-wrap: wrap;
+        flex-grow: 1; */
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+        width: 760px;
+        flex-wrap: wrap;
+    }
+    .footer_content{
+        width: 700px;
+    }
+    .container{
+        width: 700px;
+        /* margin: 0 auto; */
+        /* padding: 0;
+        margin: 0;
+        box-sizing: border-box; */
+    }
+    .blog_text{
+        width: 600px;
+    }
+   .serveces{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+   }
+   .serveces_item:nth-of-type(1){
+    margin-bottom: 30px;
+   }
+   .serveces_item:nth-of-type(2){
+    margin-bottom: 30px;
+   }
+   .serveces_item:nth-of-type(3){
+    margin-bottom: 30px;
+   }
+   .serveces_item {
+    /* width: 1110px; */
+   }
+   .intro{
+    /* width: 50%; */
+    display: flex;
+    /* align-items: center; */
+   }
+   .blog{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+   }
+   .blog_left{
+    display: flex ;
+    flex-wrap: wrap;
+   }
+   .blog_right{
+    flex-wrap: wrap;
+   }
+   .footer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    width: min-content;
+   }
+}
+
+
+
+/* @media (max-width: 1200px){
+
+body{
+    width: max-content;
+}
+    .intro{
+
+        background: url('../images/Фон.png')white center/ cover no-repeat;
+        width: 600px;
+        margin-left: 280px;
+        
+    }
+}
+@media (max-width: 1200px){
+
+
+    .serveces_item{
+      
+     width: 300px;  
+    }
+
+    .serveces{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+    
+    }
+    .serveces_item:nth-of-type(3){
+     
+    }
+    .serveces_item:nth-of-type(4){
+   
+    }
+    .blog{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer_content{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .footer{
+        width: max-content;
+    }
+
+  
+} */
+
+
+
+
+
+
+
